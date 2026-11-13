@@ -1,0 +1,38 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local environment and package libraries
+renv/library/
+renv/staging/
+.Rprofile.local
+
+# Analysis outputs and user uploads
+TriDiseaseRank_results/
+outputs/
+results/
+cache/
+uploads/
+tmp/
+*.log
+
+# Setup diagnostics
+setup_package_report.csv
+ml_package_install_report.csv
+step8_package_install_report.csv
+caret_install_diagnostic.txt
+
+# Backups and temporary files
+*.backup_*
+*.bak
+app_before*.R
+app_backup*.R
+*backup*.R
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
